@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+    android:inputType="textMultiLine"
+    android:lines="6"
+    android:gravity="start"
+    android:maxLines="8"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    android:id="@+id/New_Note" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Note"
+        android:id="@+id/Button_Add_Note"
+        android:layout_below="@+id/New_Note"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
